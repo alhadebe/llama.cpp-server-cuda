@@ -73,7 +73,7 @@ jobs:
         with:
           context: .
           # Using the official upstream Dockerfile and targeting the server build 
-          file: .devops/main-cuda.Dockerfile
+          file: .devops/cuda.Dockerfile
           target: server 
           push: true
           tags: |
